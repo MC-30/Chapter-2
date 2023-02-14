@@ -18,6 +18,61 @@ if (answer3 % 2 == 0){
 } else{
     console.log("not divisible by 2");
 }
+if (answer3 % 3 == 0){
+    console.log("divisible by 3");
+}  else{
+    console.log("not divisible by 3");
+}
+if (answer3 % 4 == 0) {
+    console.log("divisible by 4");
+
+}  else{
+    console.log("not divisible by 4");
+}
+if (answer3 % 5 == 0) {
+    console.log("divisible by 5");
+}  else{
+    console.log("not divisible by 5");
+}
+if (answer3 % 6 == 0) {
+    console.log("divisible by 6");
+}  else{
+    console.log("not divisible by 6");
+}
+
+let answer4 = Number(readLine.question("Guess my secret number!: "));
+
+if (answer4 % 8 == 8){
+
+    console.log("You Win!");
+
+}
+
+if (answer4 > 8){
+
+    console.log("Too high");
+
+}
+
+if (answer4 < 8){
+    console.log("To low")
+}
+
+else {
+
+    console.log("you win!");
+
+}
+
+
+
+let mealPrice = Number(readLine.question("Enter meal price: "));
+let tax = (mealPrice *.08 );
+let diff = mealPrice + tax;
+console.log(`new cost: = ${mealPrice}`);
+
+
+
 
 
 
