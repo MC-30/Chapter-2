@@ -69,7 +69,7 @@ else {
 let mealPrice = Number(readLine.question("Enter meal price: "));
 let tax = (mealPrice *.08 );
 let diff = mealPrice + tax;
-console.log(`new cost: = ${mealPrice}`);
+console.log(`new cost: = ${mealPrice.toFixed(2)}`);
 
 
 
