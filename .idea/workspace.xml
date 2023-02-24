@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32cae29c-9c5d-47fb-a932-24684fe950ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ForLoops.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forLoops1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conditionals.js" beforeDir="false" afterPath="$PROJECT_DIR$/conditionals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forLoops1.js" beforeDir="false" afterPath="$PROJECT_DIR$/forLoops1.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,8 +32,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conditionals.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
+            <state relative-caret-position="520">
+              <caret line="124" column="14" selection-start-line="124" selection-start-column="14" selection-end-line="124" selection-end-column="14" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,8 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ForLoops.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="29" selection-start-line="29" selection-end-line="36" selection-end-column="27" />
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -95,11 +98,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/forLoops1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="408">
+              <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -129,7 +129,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/variables.js" />
-        <option value="$PROJECT_DIR$/conditionals.js" />
         <option value="$PROJECT_DIR$/input.js" />
         <option value="$PROJECT_DIR$/input1.js" />
         <option value="$PROJECT_DIR$/inputsNotes.js" />
@@ -138,6 +137,7 @@
         <option value="$PROJECT_DIR$/whileLoops.js" />
         <option value="$PROJECT_DIR$/whileLoops2.js" />
         <option value="$PROJECT_DIR$/ForLoops.js" />
+        <option value="$PROJECT_DIR$/conditionals.js" />
         <option value="$PROJECT_DIR$/forLoops1.js" />
       </list>
     </option>
@@ -153,7 +153,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,6 +164,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -209,7 +209,9 @@
       <workItem from="1676658545373" duration="11000" />
       <workItem from="1677000925168" duration="3229000" />
       <workItem from="1677088175336" duration="1152000" />
-      <workItem from="1677173757042" duration="2943000" />
+      <workItem from="1677173757042" duration="3140000" />
+      <workItem from="1677186194444" duration="914000" />
+      <workItem from="1677260186871" duration="1723000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1675706813955</created>
@@ -274,11 +276,18 @@
       <option name="project" value="LOCAL" />
       <updated>1677090429470</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="forLoops1">
+      <created>1677176912564</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1677176912564</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36018000" />
+    <option name="totallyTimeSpent" value="38852000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -313,9 +322,17 @@
     <MESSAGE value="input1" />
     <MESSAGE value="updatedinput2" />
     <MESSAGE value="whileLoops2" />
-    <option name="LAST_COMMIT_MESSAGE" value="whileLoops2" />
+    <MESSAGE value="forLoops1" />
+    <option name="LAST_COMMIT_MESSAGE" value="forLoops1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/variables.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" column="14" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/inputsNotes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -344,13 +361,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/whileLoops1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/whileLoops2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -358,34 +368,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/variables.js">
+    <entry file="file://$PROJECT_DIR$/whileLoops1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="63" column="14" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+        <state relative-caret-position="255">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/conditionals.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="520">
+          <caret line="124" column="14" selection-start-line="124" selection-start-column="14" selection-end-line="124" selection-end-column="14" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ForLoops.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="29" selection-start-line="29" selection-end-line="36" selection-end-column="27" />
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/forLoops1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="408">
+          <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
         </state>
       </provider>
     </entry>
